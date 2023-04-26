@@ -1,0 +1,81 @@
+*{
+    background-color: #ffbecb;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+    padding: 0%;
+    margin-right: 0%;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    
+}
+/* CORREGIR EL CENTRADO DE LOS ITEMS DE LA LISTA*/
+li{
+    padding-left: 5%;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+footer{
+    
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.stock:hover{
+    font-size: 35px;
+    transition: 2s;
+}
+
+.Talles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.TablaRemera{
+    padding: 5%;
+}
+.TablaPantalon{
+    padding: 5%;
+}
+
+table{
+    width: 500px;
+}
+
+td{
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 1px;
+    text-align: center;
+    
+}
+
+/* agregar color a la primer fila de las tablas de talles */
+
